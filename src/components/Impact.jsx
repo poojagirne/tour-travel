@@ -47,7 +47,7 @@ const Impact = () => {
 
   return (
     <section id="impact" className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-7xl mx-auto px-4">
 
         {/* Employment Section */}
         <div className="text-center mb-16">
@@ -114,6 +114,7 @@ const Impact = () => {
         </div>
 
         {/* Economic Growth Section */}
+      </div>
         <div className="mt-20 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 lg:p-12">
           <div className="text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -170,7 +171,6 @@ const Impact = () => {
             })}
           </div>
         </div>
-      </div>
     </section>
   );
 };

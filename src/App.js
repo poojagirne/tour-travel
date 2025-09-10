@@ -6,7 +6,8 @@ import Hero from './components/Hero';
 import Tourism from './components/Tourism';
 import Logistics from './components/Logistics';
 import Impact from './components/Impact';
-// import JoinUs from './components/JoinUs';
+import JoinUs from './components/JoinUs';
+import Contact from './components/ContactUs';
 
 function App() {
   return (
@@ -19,20 +20,9 @@ function App() {
       <Tourism />
       <Logistics />
       <Impact />
-      {/* <JoinUs /> */}
+      <JoinUs />
       {/* <Contact /> */}
       <Footer />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

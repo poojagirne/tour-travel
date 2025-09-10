@@ -2,7 +2,7 @@ import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "luc
 
 const Footer = () => {
   return (
-    <footer className="border-t text-secondary-foreground py-16">
+    <footer className="border-t text-secondary-foreground pt-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-secondary-foreground/20 mt-12 pt-8 text-center text-secondary-foreground/60">
+        <div className="border-t border-secondary-foreground/20 mt-12 py-5 text-center text-secondary-foreground/60">
           <p>&copy; 2024 Darunga Tours & Travels LLP. All rights reserved.</p>
         </div>
       </div>
